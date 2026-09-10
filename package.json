@@ -1,23 +1,19 @@
 {
   "name": "lifesql-data",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "private": true,
+  "description": "LifeSQL data processing pipeline",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "tsx",
+    "typecheck": "tsc --noEmit"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/momchilvanchev/lifesql-data.git"
   },
-  "keywords": [],
-  "author": "",
+  "author": "Momchil Vanchev",
   "license": "ISC",
-  "type": "commonjs",
-  "bugs": {
-    "url": "https://github.com/momchilvanchev/lifesql-data/issues"
-  },
-  "homepage": "https://github.com/momchilvanchev/lifesql-data#readme",
   "devDependencies": {
     "@types/node": "^22.20.2",
     "tsx": "^4.23.13",
