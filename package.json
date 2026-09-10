@@ -6,7 +6,8 @@
   "type": "module",
   "scripts": {
     "dev": "tsx",
-    "typecheck": "tsc --noEmit"
+    "typecheck": "tsc --noEmit",
+    "download:gplates": "tsx src/gplates/download.ts"
   },
   "repository": {
     "type": "git",
