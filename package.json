@@ -19,5 +19,10 @@
     "@types/node": "^22.20.2",
     "tsx": "^4.23.13",
     "typescript": "^7.0.2"
+  },
+  "dependencies": {
+    "@turf/helpers": "^7.4.0",
+    "@turf/union": "^7.4.0",
+    "shapefile": "^0.6.6"
   }
 }
