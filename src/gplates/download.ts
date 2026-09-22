@@ -1,16 +1,16 @@
 import { mkdir, writeFile } from 'node:fs/promises'
 import { join } from 'node:path'
 
-import { MAP_SNAPSHOTS } from './snapshots.js'
+import { MAP_SNAPSHOTS } from './snapshots.ts'
 
 const BASE_URL =
     'https://gws.gplates.org/reconstruct/coastlines/'
 
 const MODEL =
-    'CAO2024'
+    'MULLER2022'
 
 const OUTPUT_DIRECTORY =
-    'data/raw/gplates/cao2024/coastlines'
+    'data/raw/gplates/muller2022/coastlines'
 
 function getSnapshotFilename(
     index: number,
